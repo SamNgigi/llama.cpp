@@ -1,0 +1,1 @@
+[INST] Create a simple React Hello World component that displays "Hello, World!" in blue color. Include proper imports and show how to use the component. [/INST]

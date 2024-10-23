@@ -17,4 +17,15 @@ CONFIGS=(
 )
 
 
-$LLAMA_SERVER -m $MODEL_PATH --port 8081
+# $LLAMA_SERVER -m $MODEL_PATH --port 8081  // runs a local webserver on port 8081 for interacting with codellama model
+# Create a specific prompt file for React (react_prompt.txt):
+echo '[INST] Create a simple React Hello World component that displays "Hello, World!" in blue color. Include proper imports and show how to use the component. [/INST]' > ./prompts/react_prompt.txt
+
+$LLAMA_CLI \
+    -m $MODEL_PATH \
+    --color \
+    -f ./prompts/react_prompt.txt \
+    --temp 0.2 \
+    -c 4096 \
+    -n 4096 \
+    -t 8
