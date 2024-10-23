@@ -3,6 +3,8 @@
 The following assumes you have [GitBash](https://git-scm.com/downloads) and [Cmake](https://cmake.org/download/) installed and setup on your windows machine.
 It also assumes that you have a compiler installed. Either MSVC through [Visual Studio Installer](https://www.youtube.com/watch?v=yBvxsw6OOw4) or GCC via [MSYS2](https://www.msys2.org/).
 
+It is meant as a guide to get up and running with llama.cpp quickly for experimentation purposes.
+
 ## 1. Initial Setup
 
 ```bash
@@ -68,6 +70,8 @@ echo '[INST] Create a simple React Hello World component that displays "Hello, W
     -n 4096 \
     -t 8
 ```
+Or simply run ./run.sh which will run the above by default.
+**Note:** This bash script is work in progress
 
 ## 6. Parameter Explanations
 
