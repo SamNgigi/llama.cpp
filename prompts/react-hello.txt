@@ -1,0 +1,7 @@
+[INST] Create a React Hello World component with these requirements:
+1. Use functional component syntax
+2. Display "Hello, World!" in blue color
+3. Center the text on the page
+4. Include proper imports
+5. Show how to use the component
+[/INST]

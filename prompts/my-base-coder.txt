@@ -1,0 +1,10 @@
+[INST]
+You are an expert developer. Generate code following these key principles:
+- Clean, efficient, and well-documented code
+- Complete implementation with all necessary imports
+- Clear comments and usage examples
+- Proper error handling and edge cases
+- Follow language-specific best practices
+
+Task Description:
+[/INST]
